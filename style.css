@@ -1,3 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  font-size: 13pt;
+  background-color: #fefeff;
+  margin: 15px;
+}
+/* CSS Grid */
 .container {
   margin: 0 auto;
   width: 50%;
@@ -39,13 +47,8 @@
 .item-g {
   grid-column-start: 3;
 }
-body {
-  font-family: "Poppins", sans-serif;
-  padding-top: 40px;
-  font-size: 13pt;
-  background-color: #fefeff;
-  margin: 15px;
-}
+/* Heading styling */
+
 h1 {
   text-align: center;
   color: #8a78f2;
@@ -106,6 +109,7 @@ b {
   border-bottom: 2px solid #8a78f2;
   color: black;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .container {
